@@ -1,11 +1,9 @@
-from CLASS_EXERCISES.Buoi_4.salesmanagement.ui.MainProgramWindow import Ui_Dialog
+from CLASS_EXERCISES.Buoi_4.salesmanagement.ui.MainProgramMainWindow import Ui_MainWindow
 
 
-class MainProgramWindowExt(Ui_Dialog):
-    def setupUi(self, Dialog):
-
+class MainProgramMainWindowExt(Ui_MainWindow):
+    def setupUi(self, MainWindow):
         super().setupUi(MainWindow)
-        self.MainWindow = MainWindow
-
+        self.MainWindow=MainWindow
     def showWindow(self):
-            self.MainWindow.show()
+        self.MainWindow.show()

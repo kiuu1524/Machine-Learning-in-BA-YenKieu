@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>606</width>
+    <height>481</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>140</y>
+      <width>521</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 0, 0);
+background-color: rgb(170, 255, 255);
+font: 36pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Đây là màn hình chính</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>606</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuH_th_ng">
+    <property name="title">
+     <string>Hệ thống</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionthongtintaikhoan"/>
+    <addaction name="actiondoimatkhau"/>
+    <addaction name="actioncauhinhhethong"/>
+    <addaction name="actionthoatphanmem"/>
+   </widget>
+   <addaction name="menuH_th_ng"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionthongtintaikhoan">
+   <property name="icon">
+    <iconset>
+     <normaloff>../images/8665306_circle_user_icon.png</normaloff>../images/8665306_circle_user_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Thông tin tài khoản</string>
+   </property>
+  </action>
+  <action name="actiondoimatkhau">
+   <property name="text">
+    <string>Đổi mật khẩu</string>
+   </property>
+  </action>
+  <action name="actioncauhinhhethong">
+   <property name="text">
+    <string>Cấu hình hệ thống</string>
+   </property>
+  </action>
+  <action name="actionthoatphanmem">
+   <property name="text">
+    <string>Thoát</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
