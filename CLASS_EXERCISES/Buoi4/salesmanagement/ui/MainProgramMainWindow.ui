@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>606</width>
+    <height>481</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>140</y>
+      <width>521</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 0, 0);
+background-color: rgb(170, 255, 255);
+font: 36pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Đây là màn hình chính</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>606</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuH_th_ng">
+    <property name="title">
+     <string>Hệ thống</string>
+    </property>
+    <addaction name="actionthongtintaikhoan"/>
+    <addaction name="separator"/>
+    <addaction name="actiondoimatkhau"/>
+    <addaction name="separator"/>
+    <addaction name="actioncauhinhhethong"/>
+    <addaction name="separator"/>
+    <addaction name="actionthoatphanmem"/>
+   </widget>
+   <widget class="QMenu" name="menuQuanly">
+    <property name="title">
+     <string>Quản lý</string>
+    </property>
+    <addaction name="actionQuanlySanphamDanhMuc"/>
+    <addaction name="separator"/>
+    <addaction name="actionQuanlyDonHang"/>
+    <addaction name="separator"/>
+    <addaction name="actionQuanLyNhanVien"/>
+   </widget>
+   <addaction name="menuH_th_ng"/>
+   <addaction name="menuQuanly"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionthongtintaikhoan">
+   <property name="icon">
+    <iconset>
+     <normaloff>../images/ic_thongtintaikhoan.png</normaloff>../images/ic_thongtintaikhoan.png</iconset>
+   </property>
+   <property name="text">
+    <string>Thông tin tài khoản</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+I</string>
+   </property>
+  </action>
+  <action name="actiondoimatkhau">
+   <property name="icon">
+    <iconset>
+     <normaloff>../images/ic_doimatkhau.png</normaloff>../images/ic_doimatkhau.png</iconset>
+   </property>
+   <property name="text">
+    <string>Đổi mật khẩu</string>
+   </property>
+  </action>
+  <action name="actioncauhinhhethong">
+   <property name="icon">
+    <iconset>
+     <normaloff>../images/ic_cauhinh.png</normaloff>../images/ic_cauhinh.png</iconset>
+   </property>
+   <property name="text">
+    <string>Cấu hình hệ thống</string>
+   </property>
+  </action>
+  <action name="actionthoatphanmem">
+   <property name="icon">
+    <iconset>
+     <normaloff>../images/ic_exit.png</normaloff>../images/ic_exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>Thoát phần mềm</string>
+   </property>
+   <property name="shortcut">
+    <string/>
+   </property>
+  </action>
+  <action name="actionQuanlySanphamDanhMuc">
+   <property name="icon">
+    <iconset>
+     <normaloff>../images/ic_quanly_sanpham.png</normaloff>../images/ic_quanly_sanpham.png</iconset>
+   </property>
+   <property name="text">
+    <string>Quản lý sản phẩm - danh mục</string>
+   </property>
+  </action>
+  <action name="actionQuanLyNhanVien">
+   <property name="icon">
+    <iconset>
+     <normaloff>../images/ic_quanly_nhanvien.png</normaloff>../images/ic_quanly_nhanvien.png</iconset>
+   </property>
+   <property name="text">
+    <string>Quản lý nhân viên</string>
+   </property>
+  </action>
+  <action name="actionQuanlyDonHang">
+   <property name="icon">
+    <iconset>
+     <normaloff>../images/ic_quanlydonhang.png</normaloff>../images/ic_quanlydonhang.png</iconset>
+   </property>
+   <property name="text">
+    <string>Quản lý đơn hàng</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
