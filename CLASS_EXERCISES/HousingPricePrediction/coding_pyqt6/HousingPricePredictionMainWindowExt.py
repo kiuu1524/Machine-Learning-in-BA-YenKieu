@@ -4,7 +4,7 @@ import pickle
 from HousingPricePrediction.coding_pyqt6.HousingPricePredictionMainWindow import Ui_MainWindow
 
 
-class HousingPricePredictionWindowExt(Ui_MainWindow):
+class HousingPricePredictionMainWindowExt(Ui_MainWindow):
     def setupUi(self, MainWindow):
         super().setupUi(MainWindow)
         self.MainWindow = MainWindow

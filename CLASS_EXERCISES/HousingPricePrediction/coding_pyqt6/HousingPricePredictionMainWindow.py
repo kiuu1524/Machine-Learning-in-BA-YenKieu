@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'D:\Uni\Nam3\Ki2\MLBA\Machine-Learning-in-BA-YenKieu\CLASS_EXERCISES\HousingPricePrediction\coding_pyqt6\HousingPricePredictionWindow.ui'
+# Form implementation generated from reading ui file 'D:\Uni\Nam3\Ki2\MLBA\Machine-Learning-in-BA-YenKieu\CLASS_EXERCISES\HousingPricePrediction\coding_pyqt6\HousingPricePredictionMainWindow.ui'
 #
 # Created by: PyQt6 UI code generator 6.8.1
 #
